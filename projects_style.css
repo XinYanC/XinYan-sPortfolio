@@ -33,7 +33,6 @@
     .gridCard {
         width: 90%;
         border: 1px solid black;
-        max-height: 90%;
         padding: 10%;
         border-radius: 15px;
     }
@@ -54,7 +53,6 @@
     .gridCard {
         width: 90%;
         border: 1px solid black;
-        max-height: 90%;
         padding: 10%;
         border-radius: 15px;
     }
@@ -86,7 +84,6 @@
 .gridCard {
     width: 80%;
     border: 1px solid black;
-    min-height: 80%;
     padding: 5%;
     border-radius: 15px;
 }
