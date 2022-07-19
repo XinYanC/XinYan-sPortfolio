@@ -157,8 +157,8 @@
     .featuredCard {
         width: 90%;
         border: 1px solid black;
-        min-height: 90%;
-        padding: 5%;
+/*         min-height: 90%; */
+        padding: 10%;
         border-radius: 15px;
         background-color: white;
     }
@@ -204,7 +204,7 @@
 .featuredCard {
     width: 80%;
     border: 1px solid black;
-    padding: 5%;
+    padding: 3%;
     border-radius: 15px;
     background-color: white;
 }
