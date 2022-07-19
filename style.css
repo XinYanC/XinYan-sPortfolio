@@ -199,20 +199,10 @@
     transition: all 0.2s ease 0s;
 }
 
-/* .card,
-.featuredCard {
-    width: 300rem;
-    border: 1px solid black;
-    min-height: 20rem;
-    padding: 5%;
-    border-radius: 15px;
-} */
-
 .card,
 .featuredCard {
     width: 80%;
     border: 1px solid black;
-    min-height: 80%;
     padding: 5%;
     border-radius: 15px;
 }
