@@ -160,6 +160,7 @@
         min-height: 90%;
         padding: 5%;
         border-radius: 15px;
+        background-color: white;
     }
     #pro-img{
         width: 100%;
@@ -205,6 +206,7 @@
     border: 1px solid black;
     padding: 5%;
     border-radius: 15px;
+    background-color: white;
 }
 
 .contentCluster{
