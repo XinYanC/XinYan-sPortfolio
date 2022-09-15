@@ -20,7 +20,7 @@
 
 @media only screen and (max-width: 600px){
     .cardGrid {
-        gap: 20%;
+        row-gap: 20%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -33,6 +33,7 @@
     .gridCard {
         width: 90%;
         border: 1px solid black;
+        /* max-height: 90%; */
         padding: 10%;
         border-radius: 15px;
         background-color: white;
@@ -54,6 +55,7 @@
     .gridCard {
         width: 90%;
         border: 1px solid black;
+        /* max-height: 90%; */
         padding: 10%;
         border-radius: 15px;
         background-color: white;
@@ -86,6 +88,7 @@
 .gridCard {
     width: 75%;
     border: 1px solid black;
+    /* min-height: 80%; */
     padding: 7%;
     border-radius: 15px;
     background-color: white;
@@ -106,7 +109,7 @@
     padding-top: 7%;
 }
 
-#freeCodeCamp_tit, #cssi_tit {
+#freeCodeCamp_tit, #cssi_tit, #kwk_tit, #gwc_tit, #java_tit {
     font-size: 200%;
     padding-top: 13%;
     padding-bottom: 3%;
@@ -117,7 +120,20 @@
     flex-direction: column;
 }
 
-#cssi_but, #freeCodeCamp_but{
+#java_but{
+    margin-top: 2.5%;
+    padding: 1%;
+    width: 100%;
+    font-family: 'Barlow', sans-serif !important;
+    font-size: 115%;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: rgb(162, 123, 181);
+    color: white;
+    text-align: left;
+}
+
+#cssi_but, #freeCodeCamp_but, #kwk_but, #gwc_but{
     margin-top: 2.5%;
     padding: 1%;
     width: 100%;
@@ -130,7 +146,7 @@
     text-align: left;
 }
 
-#cssi_but:hover, #freeCodeCamp_but:hover{
+#cssi_but:hover, #freeCodeCamp_but:hover, #kwk_but:hover, #gwc_but:hover, #java_but:hover{
     transform: translateY(5px);
     transition: all 0.2s ease 0s;
     box-shadow: 3px 3px 3px rgb(150, 150, 150);
