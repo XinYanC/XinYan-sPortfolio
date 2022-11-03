@@ -243,6 +243,17 @@
     padding-top: 5%;
     font-size: 120%;
 }
+
+#resume{
+    padding: 10% 20% 2% 20%;
+    font-family: 'Barlow', sans-serif !important;
+}
+
+#embed_resume{
+    margin-top: 50px;
+    width: 100%;
+}
+
 .timeline{
     display: grid;
     grid-template-columns: 1fr 3px 1fr;
