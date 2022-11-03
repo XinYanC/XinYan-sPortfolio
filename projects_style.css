@@ -18,6 +18,10 @@
     grid-template-columns: repeat(3, 1fr);
 }
 
+#google_cardGrid{
+    padding-top: 3%;
+}
+
 @media only screen and (max-width: 600px){
     .cardGrid {
         row-gap: 20%;
@@ -109,7 +113,7 @@
     padding-top: 7%;
 }
 
-#freeCodeCamp_tit, #cssi_tit, #kwk_tit, #gwc_tit, #java_tit {
+#freeCodeCamp_tit, #cssi_tit, #kwk_tit, #gwc_tit, #java_tit, #python_tit, #prototyping_tit {
     font-size: 200%;
     padding-top: 13%;
     padding-bottom: 3%;
@@ -120,7 +124,7 @@
     flex-direction: column;
 }
 
-#java_but{
+#java_but, #python_but, #prototyping_but{
     margin-top: 2.5%;
     padding: 1%;
     width: 100%;
@@ -146,8 +150,23 @@
     text-align: left;
 }
 
-#cssi_but:hover, #freeCodeCamp_but:hover, #kwk_but:hover, #gwc_but:hover, #java_but:hover{
+#cssi_but:hover, #freeCodeCamp_but:hover, #kwk_but:hover, #gwc_but:hover, #java_but:hover, #python_but:hover, #prototyping_but:hover{
     transform: translateY(5px);
     transition: all 0.2s ease 0s;
     box-shadow: 3px 3px 3px rgb(150, 150, 150);
+}
+
+#ver-img{
+    width: 30%;
+}
+
+#sq-img{
+    width: 70%;
+}
+
+#ver_block{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5%;
+    text-decoration: none; 
 }
