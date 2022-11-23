@@ -170,3 +170,7 @@
     padding-bottom: 5%;
     text-decoration: none; 
 }
+#two_button{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
